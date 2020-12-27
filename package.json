@@ -1,12 +1,12 @@
 {
   "name": "developers-portfolio",
   "description": "A personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.",
-  "homepage": "https://vanshikaarora.github.io/home",
+  "homepage": "https://vanshikaarora.github.io",
   "version": "2.0.0",
-  "private": true,
+  "private": false,
   "author": {
     "name": "Vanshika Arora",
-    "email": "vanshikaa937@gmail.com",
+    "email": "shiaro29@gmail.com",
     "url": "https://github.com/vanshikaarora"
   },
   "dependencies": {
@@ -28,7 +28,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

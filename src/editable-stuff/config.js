@@ -50,7 +50,7 @@ const about = {
   imageLink: require("../editable-stuff/vanshikaarora.png"),
   imageSize: 375,
   message:
-    "My name is Vanshika Arora. I am pursuing Dual Degree (B.Tech+M.Tech) in Mathematics and Computing from Indian Institute of Technology (IIT ISM) Dhanbad with an outstanding academic record.\n I am a candidate with a very strong technical background, incredible work experiences and an inquistive bent of mind. I believe hard work along with Team Work is the key to make an impact. ",
+    "My name is Vanshika Arora. I am pursuing Dual Degree (B.Tech+M.Tech) in Mathematics and Computing from Indian Institute of Technology (IIT ISM) Dhanbad with an outstanding academic record.\n I am a candidate with profound fundamentals in computer science, incredible work experiences and an inquistive bent of mind. I believe hard work along with Team Work is the key to make an impact. ",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -75,17 +75,12 @@ const leadership = {
   show: true,
   heading: "Leadership",
   message:
-    "Knowledge is the greates gift. Therefore I mentor students in their early career stage to help them achieve what they dream for. As a part of which I have mentored students under 17 years of age to learn how to contribute to Open Source under the program Google code-in. I am also mentor at Codess.cafe which is a Pro-bono initiative for collegiate women in tech, helping them unlock their true potential.",
+    "Knowledge is the greatest gift. Therefore, I mentor students in their early career stage to help them achieve what they dream for. As a part of which I have mentored students under 17 years of age to learn how to contribute to Open Source under the program Google code-in. I am also mentor at Codess.cafe which is a Pro-bono initiative for collegiate women in tech, helping them unlock their true potential.",
   images: [
     { 
       img: require("../editable-stuff/googlecodein.png"), 
       label: "Google Code-in", 
       paragraph: "Mentoring young students to contribute to Open Source" 
-    },
-    { 
-      img: require("../editable-stuff/codesscafe.jpeg"), 
-      label: "Codess Cafe", 
-      paragraph: "Mentoring Young female software engineers." 
     },
   ],
   imageSize: {
@@ -138,7 +133,7 @@ const getInTouch = {
   heading: "Get In Touch",
   message:
     "I'm currently open for Summer Internship opportunities! If you know of any positions available, if you have any questions,(I am available for relocation) or if you just want to say hi, please feel free to email me at",
-  email: "vanshikaa937@gmail.com",
+  email: "shiaro29@gmail.com",
 };
 
 export { navBar, mainBody, about,experience, repos, skills, leadership, blog,getInTouch, layout };
