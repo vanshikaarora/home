@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.f5497eb8.chunk.css",
-    "main.js": "/home/static/js/main.75f9d4f2.chunk.js",
-    "main.js.map": "/home/static/js/main.75f9d4f2.chunk.js.map",
-    "runtime-main.js": "/home/static/js/runtime-main.3c590061.js",
-    "runtime-main.js.map": "/home/static/js/runtime-main.3c590061.js.map",
-    "static/js/2.65dee69c.chunk.js": "/home/static/js/2.65dee69c.chunk.js",
-    "static/js/2.65dee69c.chunk.js.map": "/home/static/js/2.65dee69c.chunk.js.map",
-    "index.html": "/home/index.html",
-    "precache-manifest.ae5df5e1701863b8a2ed47f38f9018cd.js": "/home/precache-manifest.ae5df5e1701863b8a2ed47f38f9018cd.js",
-    "service-worker.js": "/home/service-worker.js",
-    "static/css/main.f5497eb8.chunk.css.map": "/home/static/css/main.f5497eb8.chunk.css.map",
-    "static/js/2.65dee69c.chunk.js.LICENSE.txt": "/home/static/js/2.65dee69c.chunk.js.LICENSE.txt",
-    "static/media/googlecodein.png": "/home/static/media/googlecodein.fce39fe5.png",
-    "static/media/resume.pdf": "/home/static/media/resume.e9f2bb12.pdf",
-    "static/media/vanshikaarora.png": "/home/static/media/vanshikaarora.a818fb5e.png"
+    "main.css": "/static/css/main.f5497eb8.chunk.css",
+    "main.js": "/static/js/main.39227449.chunk.js",
+    "main.js.map": "/static/js/main.39227449.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.554504a0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.554504a0.js.map",
+    "static/js/2.ae2c4f8a.chunk.js": "/static/js/2.ae2c4f8a.chunk.js",
+    "static/js/2.ae2c4f8a.chunk.js.map": "/static/js/2.ae2c4f8a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d3ca69fa57237b08752828ff3236730b.js": "/precache-manifest.d3ca69fa57237b08752828ff3236730b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.f5497eb8.chunk.css.map": "/static/css/main.f5497eb8.chunk.css.map",
+    "static/js/2.ae2c4f8a.chunk.js.LICENSE.txt": "/static/js/2.ae2c4f8a.chunk.js.LICENSE.txt",
+    "static/media/googlecodein.png": "/static/media/googlecodein.fce39fe5.png",
+    "static/media/resume.pdf": "/static/media/resume.e9f2bb12.pdf",
+    "static/media/vanshikaarora.png": "/static/media/vanshikaarora.a818fb5e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.3c590061.js",
-    "static/js/2.65dee69c.chunk.js",
+    "static/js/runtime-main.554504a0.js",
+    "static/js/2.ae2c4f8a.chunk.js",
     "static/css/main.f5497eb8.chunk.css",
-    "static/js/main.75f9d4f2.chunk.js"
+    "static/js/main.39227449.chunk.js"
   ]
 }
