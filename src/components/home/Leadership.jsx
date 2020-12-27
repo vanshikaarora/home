@@ -14,21 +14,22 @@ const Leadership = ({ heading, message, img, imageSize }) => {
           <div className="col-md-5">
             <p className="lead">{message}</p>
           </div>
-          <div className="col-md-7">
+          <div style={{ color: 'black' }} className="col-md-7">
             <Carousel>
               {img.map((value, index) => {
                 return (
-                  <Carousel.Item>
+                  <Carousel.Item >
                     <img
-                      className="d-block w-100"
+                      className="d-block w-70"
                       src={value.img}
                       alt="First slide"
-                      width={imageSize.width}
-                      height={imageSize.height}
+                      width={600}
+                      height={400}
+                      style={{ color: 'black' }}
                     />
                     <Carousel.Caption>
-                      <h3>{value.label}</h3>
-                      <p>
+                      <h3 style={{ color: 'black' }}>{value.label}</h3>
+                      <p style={{ color: 'black' }}>
                         {value.paragraph}
                       </p>
                     </Carousel.Caption>

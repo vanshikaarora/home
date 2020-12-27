@@ -18,7 +18,7 @@ const API = "https://api.github.com";
 // const specficQuerry = "https://api.github.com/repos/hashirshoaeb/";
 
 const Project = ({ heading, username, length, specfic }) => {
-  const allReposAPI = `${API}/users/${username}/repos?sort=updated&direction=desc`;
+  const allReposAPI = `${API}/users/${username}/starred`;
   const specficReposAPI = `${API}/repos/${username}`;
   const dummyProjectsArr = new Array(length + specfic.length).fill(
     dummyProject
@@ -42,6 +42,7 @@ const Project = ({ heading, username, length, specfic }) => {
       } catch (error) {
         console.error(error.message);
       }
+      
       // setting projectArray
       // TODO: remove the duplication.
       setProjectsArray(repoList);
